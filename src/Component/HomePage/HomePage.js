@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHome, FaWater, FaTools, FaImage } from 'react-icons/fa'; // Importando ícones do react-icons
+import { FaHome,  FaTools, FaImage } from 'react-icons/fa'; // Importando ícones do react-icons
 import './HomePage.css';
 import ThalitaSemFundo from '../../Img/thalita-sem-fundo.jpg';
 import Amazonas from '../../Img/residencial-amazonas.jpg';
