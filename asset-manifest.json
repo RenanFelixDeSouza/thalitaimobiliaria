@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/thalitaimobiliaria/static/css/main.0b5a84c2.css",
-    "main.js": "/thalitaimobiliaria/static/js/main.e8970b42.js",
+    "main.css": "/thalitaimobiliaria/static/css/main.fbf3037c.css",
+    "main.js": "/thalitaimobiliaria/static/js/main.b0af6c85.js",
     "static/js/453.ed89dfb7.chunk.js": "/thalitaimobiliaria/static/js/453.ed89dfb7.chunk.js",
     "static/media/thalitapage-large.png": "/thalitaimobiliaria/static/media/thalitapage-large.b0d80629dea9780316b5.png",
     "static/media/logouchoa-azul.png": "/thalitaimobiliaria/static/media/logouchoa-azul.ebec0de63e01d415466c.png",
@@ -13,12 +13,12 @@
     "static/media/residencial-amazonas-2-imagens-empreendimentos-492x328.jpg": "/thalitaimobiliaria/static/media/residencial-amazonas-2-imagens-empreendimentos-492x328.f7b2f28716f1d5ff096a.jpg",
     "static/media/Banner-TELLUS.webp": "/thalitaimobiliaria/static/media/Banner-TELLUS.373c7644dae8dcfeccbc.webp",
     "index.html": "/thalitaimobiliaria/index.html",
-    "main.0b5a84c2.css.map": "/thalitaimobiliaria/static/css/main.0b5a84c2.css.map",
-    "main.e8970b42.js.map": "/thalitaimobiliaria/static/js/main.e8970b42.js.map",
+    "main.fbf3037c.css.map": "/thalitaimobiliaria/static/css/main.fbf3037c.css.map",
+    "main.b0af6c85.js.map": "/thalitaimobiliaria/static/js/main.b0af6c85.js.map",
     "453.ed89dfb7.chunk.js.map": "/thalitaimobiliaria/static/js/453.ed89dfb7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b5a84c2.css",
-    "static/js/main.e8970b42.js"
+    "static/css/main.fbf3037c.css",
+    "static/js/main.b0af6c85.js"
   ]
 }
