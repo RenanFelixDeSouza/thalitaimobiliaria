@@ -56,16 +56,14 @@ function Navbar() {
           burgerButtonClassName={`bm-burger-button ${isScrolled ? 'burger-solid' : 'burger-transparent'}`}
           burgerBarClassName={`bm-burger-bars ${isScrolled ? 'burger-solid' : 'burger-transparent'}`}
         >
-          <a className="menu-item" href="#quem-somos">Quem somos</a>
+          <a className="menu-item" href="#quem-sou">Quem sou</a>
           <a className="menu-item" href="#empreendimentos">Empreendimentos</a>
-          <a className="menu-item" href="#contatos">Contatos</a>
           <button className="cta-button">Fale Conosco Agora!</button>
         </Menu>
       ) : (
         <ul className="menu-traditional">
-          <li><a href="#quem-somos">Quem somos</a></li>
+          <li><a href="#quem-sou">Quem sou</a></li>
           <li><a href="#empreendimentos">Empreendimentos</a></li>
-          <li><a href="#contatos">Contatos</a></li>
           <li><button className="cta-button">Fale Conosco Agora!</button></li>
         </ul>
       )}

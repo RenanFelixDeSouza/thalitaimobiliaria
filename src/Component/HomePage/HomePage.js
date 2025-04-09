@@ -6,6 +6,7 @@ import Amazonas from '../../Img/residencial-amazonas.jpg';
 import Amazonas2 from '../../Img/residencial-amazonas-2-imagens-empreendimentos-492x328.jpg';
 import Tellus from '../../Img/Banner-TELLUS.webp';
 import TerraAmazonia from '../../Img/terramazonia-imagens-empreendimentos-492x328.jpg';
+import { MdOutlineEnergySavingsLeaf } from 'react-icons/md';
 
 function HomePage() {
   return (
@@ -36,7 +37,7 @@ function HomePage() {
         </div>
         <div className="card">
           <div className="card-icon">
-            <FaWater size={40} color="#1a2a4a" />
+            <MdOutlineEnergySavingsLeaf  size={40} color="#1a2a4a" />
           </div>
           <h3>Infraestrutura</h3>
           <p>
@@ -82,7 +83,6 @@ function HomePage() {
               <FaImage size={80} color="#ccc" />
             )}
             <h3>Residencial Amazonas</h3>
-            <p>Loteamento Residencial Amazonas</p>
             <button>Conheça</button>
           </div>
           <div className="project-card">
@@ -92,7 +92,6 @@ function HomePage() {
               <FaImage size={80} color="#ccc" />
             )}
             <h3>Residencial Amazonas II</h3>
-            <p>Loteamento Residencial Amazonas II</p>
             <button>Conheça</button>
           </div>
           <div className="project-card">
@@ -102,7 +101,6 @@ function HomePage() {
               <FaImage size={80} color="#ccc" />
             )}
             <h3>Residencial Tellus</h3>
-            <p>Loteamento Residencial Tellus</p>
             <button>Conheça</button>
           </div>
           <div className="project-card">
@@ -111,8 +109,7 @@ function HomePage() {
             ) : (
               <FaImage size={80} color="#ccc" />
             )}
-            <h3>Terramazonia</h3>
-            <p>Terramazonia Condominium</p>
+            <h3>Terramazonia Condominium</h3>
             <button>Conheça</button>
           </div>
         </div>
@@ -124,7 +121,6 @@ function HomePage() {
               <FaImage size={80} color="#ccc" />
             )}
             <h3>Residencial Amazonas</h3>
-            <p>Loteamento Residencial Amazonas</p>
             <button>Conheça</button>
           </div>
           <div className="project-card">
@@ -134,7 +130,6 @@ function HomePage() {
               <FaImage size={80} color="#ccc" />
             )}
             <h3>Residencial Amazonas II</h3>
-            <p>Loteamento Residencial Amazonas II</p>
             <button>Conheça</button>
           </div>
           <div className="project-card">
@@ -144,7 +139,6 @@ function HomePage() {
               <FaImage size={80} color="#ccc" />
             )}
             <h3>Residencial Tellus</h3>
-            <p>Loteamento Residencial Tellus</p>
             <button>Conheça</button>
           </div>
           <div className="project-card">
@@ -154,7 +148,6 @@ function HomePage() {
               <FaImage size={80} color="#ccc" />
             )}
             <h3>Terramazonia</h3>
-            <p>Terramazonia Condominium</p>
             <button>Conheça</button>
           </div>
         </div>
