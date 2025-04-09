@@ -1,0 +1,278 @@
+.navbar {
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  background-color: var(--primary-color);
+  z-index: 999;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.navbar.transparent {
+  background-color: transparent;
+  color: var(--secondary-color);
+}
+
+.navbar.solid {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+/* Menu quando o navbar está transparente */
+.menu-transparent {
+  background-color: transparent;
+  color: var(--secondary-color);
+}
+
+/* Menu quando o navbar está sólido */
+.menu-solid {
+  background-color: var(--primary-color);
+  color: var(--third-color);
+}
+
+/* Botão hambúrguer quando o navbar está transparente */
+.burger-transparent .bm-burger-bars {
+  background-color: var(--primary-color);
+}
+
+/* Botão hambúrguer quando o navbar está sólido */
+.burger-solid .bm-burger-bars {
+  background-color: var(--secondary-color);
+}
+
+/* Menu tradicional para telas grandes */
+.menu-traditional {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+}
+
+.menu-traditional li {
+  margin: 0;
+}
+
+.menu-traditional li a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.menu-traditional li a:hover {
+  color: var(--third-color);
+}
+
+
+.navbar ul {
+  display: flex; 
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+}
+
+.navbar ul li {
+  margin: 0; 
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: var(--third-color);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: flex-start; 
+}
+
+.logo {
+  transition: height 0.3s ease, width 0.3s ease;
+}
+
+.large-logo {
+  height: 50px;
+  width: auto;
+}
+
+.small-logo {
+  height: 40px;
+  width: auto;
+}
+
+.cta-button {
+  background-color: var(--third-color);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #5e8e1b;
+}
+
+.hamburger{
+  display: none;
+}
+
+/* Esconde o menu hambúrguer em telas grandes */
+.bm-burger-button {
+  display: none;
+}
+
+
+/* Estilização do menu */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 20px;
+  top: 20px;
+}
+
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Ajusta o menu hambúrguer para começar abaixo do navbar */
+.bm-menu {
+  top: 75px; 
+  position: absolute; 
+  z-index: 998; 
+}
+
+/* Remove a sombra ou fundo padrão do menu */
+.bm-menu {
+  box-shadow: none; 
+  background: transparent; 
+}
+
+/* Remove a sombra do botão hambúrguer */
+.bm-burger-button {
+  box-shadow: none; 
+}
+
+/* Remove o fundo preto transparente */
+.bm-overlay {
+  background: transparent !important; 
+}
+
+/* Centraliza os itens do menu */
+.bm-item-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  gap: 1rem; 
+  padding: 0;
+  margin: 0;
+}
+
+/* Estiliza os links do menu */
+.bm-item-list a {
+  text-decoration: none;
+  color: #373a47;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.bm-item-list a:hover {
+  color: var(--third-color); 
+}
+
+/* Estiliza o botão de chamada para ação */
+.bm-item-list .cta-button {
+  margin-top: 1rem;
+  background-color: var(--third-color);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.bm-item-list .cta-button:hover {
+  background-color: #5e8e1b;
+}
+
+/* Esconde o menu tradicional em telas pequenas */
+@media (max-width: 768px) {
+  .menu-traditional {
+    display: none;
+  }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+
+  .bm-menu {
+    top: 60px;
+    background: #ffffff;
+    font-size: 1.15em;
+    overflow-y: auto; 
+    width: 250px; 
+    padding: 1rem; 
+    border-radius: 0 0 10px 10px; 
+    right: 0; 
+    z-index: 999; 
+  }
+  
+  .large-logo {
+    height: 35px;
+    width: auto;
+  }
+  .logo-container {
+    justify-content: flex-start; 
+    width: 100%; 
+  }
+
+  .navbar ul {
+    display: none; 
+    flex-direction: column; 
+    width: 100%; 
+    text-align: center; 
+    margin-top: 1rem;
+    gap: 1rem; 
+  }
+
+  .menu {
+    display: none; 
+    width: 100%; 
+    text-align: center; 
+    flex-direction: column; 
+    margin-top: 1rem; 
+  }
+
+  .menu.active {
+    display: flex; 
+  }
+
+  .bm-burger-button {
+    display: block; 
+  }
+}
