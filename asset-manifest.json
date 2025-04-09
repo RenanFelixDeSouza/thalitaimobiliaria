@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/thalitaimobiliaria/static/css/main.df569358.css",
+    "main.js": "/thalitaimobiliaria/static/js/main.6ab2b1d0.js",
+    "static/js/453.ed89dfb7.chunk.js": "/thalitaimobiliaria/static/js/453.ed89dfb7.chunk.js",
+    "static/media/thalitapage-large.png": "/thalitaimobiliaria/static/media/thalitapage-large.b0d80629dea9780316b5.png",
+    "static/media/logouchoa-azul.png": "/thalitaimobiliaria/static/media/logouchoa-azul.ebec0de63e01d415466c.png",
+    "static/media/thalitapage.jpg": "/thalitaimobiliaria/static/media/thalitapage.9f561ba5df72cee73558.jpg",
+    "static/media/logouchoa.png": "/thalitaimobiliaria/static/media/logouchoa.cd1b1ac881f2efa42bb7.png",
+    "static/media/thalita-sem-fundo.jpg": "/thalitaimobiliaria/static/media/thalita-sem-fundo.9b5041edc2e3fcf85d13.jpg",
+    "static/media/residencial-amazonas.jpg": "/thalitaimobiliaria/static/media/residencial-amazonas.4f7e28992735c349b98b.jpg",
+    "static/media/terramazonia-imagens-empreendimentos-492x328.jpg": "/thalitaimobiliaria/static/media/terramazonia-imagens-empreendimentos-492x328.b417e761079f91adb75c.jpg",
+    "static/media/residencial-amazonas-2-imagens-empreendimentos-492x328.jpg": "/thalitaimobiliaria/static/media/residencial-amazonas-2-imagens-empreendimentos-492x328.f7b2f28716f1d5ff096a.jpg",
+    "static/media/Banner-TELLUS.webp": "/thalitaimobiliaria/static/media/Banner-TELLUS.373c7644dae8dcfeccbc.webp",
+    "index.html": "/thalitaimobiliaria/index.html",
+    "main.df569358.css.map": "/thalitaimobiliaria/static/css/main.df569358.css.map",
+    "main.6ab2b1d0.js.map": "/thalitaimobiliaria/static/js/main.6ab2b1d0.js.map",
+    "453.ed89dfb7.chunk.js.map": "/thalitaimobiliaria/static/js/453.ed89dfb7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df569358.css",
+    "static/js/main.6ab2b1d0.js"
+  ]
+}
