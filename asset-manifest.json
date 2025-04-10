@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/thalitaimobiliaria/static/css/main.fbf3037c.css",
-    "main.js": "/thalitaimobiliaria/static/js/main.b0af6c85.js",
-    "static/js/453.ed89dfb7.chunk.js": "/thalitaimobiliaria/static/js/453.ed89dfb7.chunk.js",
+    "main.css": "/thalitaimobiliaria/static/css/main.43f8b210.css",
+    "main.js": "/thalitaimobiliaria/static/js/main.365af6ab.js",
+    "static/js/453.501d1b03.chunk.js": "/thalitaimobiliaria/static/js/453.501d1b03.chunk.js",
     "static/media/thalitapage-large.png": "/thalitaimobiliaria/static/media/thalitapage-large.b0d80629dea9780316b5.png",
     "static/media/logouchoa-azul.png": "/thalitaimobiliaria/static/media/logouchoa-azul.ebec0de63e01d415466c.png",
     "static/media/thalitapage.jpg": "/thalitaimobiliaria/static/media/thalitapage.9f561ba5df72cee73558.jpg",
@@ -12,13 +12,17 @@
     "static/media/terramazonia-imagens-empreendimentos-492x328.jpg": "/thalitaimobiliaria/static/media/terramazonia-imagens-empreendimentos-492x328.b417e761079f91adb75c.jpg",
     "static/media/residencial-amazonas-2-imagens-empreendimentos-492x328.jpg": "/thalitaimobiliaria/static/media/residencial-amazonas-2-imagens-empreendimentos-492x328.f7b2f28716f1d5ff096a.jpg",
     "static/media/Banner-TELLUS.webp": "/thalitaimobiliaria/static/media/Banner-TELLUS.373c7644dae8dcfeccbc.webp",
+    "static/media/slick.svg": "/thalitaimobiliaria/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/thalitaimobiliaria/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/thalitaimobiliaria/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/thalitaimobiliaria/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/thalitaimobiliaria/index.html",
-    "main.fbf3037c.css.map": "/thalitaimobiliaria/static/css/main.fbf3037c.css.map",
-    "main.b0af6c85.js.map": "/thalitaimobiliaria/static/js/main.b0af6c85.js.map",
-    "453.ed89dfb7.chunk.js.map": "/thalitaimobiliaria/static/js/453.ed89dfb7.chunk.js.map"
+    "main.43f8b210.css.map": "/thalitaimobiliaria/static/css/main.43f8b210.css.map",
+    "main.365af6ab.js.map": "/thalitaimobiliaria/static/js/main.365af6ab.js.map",
+    "453.501d1b03.chunk.js.map": "/thalitaimobiliaria/static/js/453.501d1b03.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbf3037c.css",
-    "static/js/main.b0af6c85.js"
+    "static/css/main.43f8b210.css",
+    "static/js/main.365af6ab.js"
   ]
 }
