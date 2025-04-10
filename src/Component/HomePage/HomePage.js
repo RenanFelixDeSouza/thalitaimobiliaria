@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaHome,  FaTools, FaImage } from 'react-icons/fa'; // Importando ícones do react-icons
+import { FaHome, FaTools, FaImage } from 'react-icons/fa'; // Importando ícones do react-icons
+import Slider from 'react-slick'; // Importando o carrossel
 import './HomePage.css';
 import ThalitaSemFundo from '../../Img/thalita-sem-fundo.jpg';
 import Amazonas from '../../Img/residencial-amazonas.jpg';
@@ -9,6 +10,45 @@ import TerraAmazonia from '../../Img/terramazonia-imagens-empreendimentos-492x32
 import { MdOutlineEnergySavingsLeaf } from 'react-icons/md';
 
 function HomePage() {
+  const galleryImages = [
+    Amazonas,
+    Amazonas2,
+    Tellus,
+    TerraAmazonia,
+    Amazonas,
+    Amazonas2,
+    Tellus,
+  ];
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024, 
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 768, 
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 480, 
+        settings: {
+          slidesToShow: 1,
+          arrows: false, 
+        },
+      },
+    ],
+  };
+
   return (
     <div className="homepage">
       {/* Seção com imagem */}
@@ -16,7 +56,7 @@ function HomePage() {
 
       {/* Texto abaixo da imagem */}
       <div className="hero-text">
-        <h1>Construindo sonhos</h1>
+        <h1>Realizando sonhos</h1>
         <p>
           A Constroi Incorporadora, há mais de 40 anos, trabalha para a realização dos sonhos seus e de sua família.
           Seja para construir ou investir, nós temos os melhores bairros planejados, nas melhores regiões do Brasil.
@@ -24,7 +64,8 @@ function HomePage() {
       </div>
 
       {/* Cards abaixo */}
-      <div className="cards-section">
+      <div className="cards-section"
+      style={{ marginBottom: '20px' }}>
         <div className="card">
           <div className="card-icon">
             <FaHome size={40} color="#1a2a4a" />
@@ -37,7 +78,7 @@ function HomePage() {
         </div>
         <div className="card">
           <div className="card-icon">
-            <MdOutlineEnergySavingsLeaf  size={40} color="#1a2a4a" />
+            <MdOutlineEnergySavingsLeaf size={40} color="#1a2a4a" />
           </div>
           <h3>Infraestrutura</h3>
           <p>
@@ -55,6 +96,19 @@ function HomePage() {
           </p>
         </div>
       </div>
+
+      {/* Seção de galeria de fotos com carrossel */}
+      <div className="gallery-section" >
+        <h2>Galeria de Fotos</h2>
+        <Slider {...settings} className="gallery-slider">
+          {galleryImages.map((image, index) => (
+            <div key={index} className="gallery-slide">
+              <img src={image} alt={`Foto ${index + 1}`} />
+            </div>
+          ))}
+        </Slider>
+      </div>
+
 
       {/* Novo campo abaixo dos cards */}
       <div className="opportunities-section">
@@ -152,6 +206,8 @@ function HomePage() {
           </div>
         </div>
       </div>
+
+
     </div>
   );
 }
