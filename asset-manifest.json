@@ -1,28 +1,33 @@
 {
   "files": {
-    "main.css": "/thalitaimobiliaria/static/css/main.43f8b210.css",
-    "main.js": "/thalitaimobiliaria/static/js/main.365af6ab.js",
+    "main.css": "/thalitaimobiliaria/static/css/main.4da21736.css",
+    "main.js": "/thalitaimobiliaria/static/js/main.93ac9b3f.js",
     "static/js/453.501d1b03.chunk.js": "/thalitaimobiliaria/static/js/453.501d1b03.chunk.js",
     "static/media/thalitapage-large.png": "/thalitaimobiliaria/static/media/thalitapage-large.b0d80629dea9780316b5.png",
+    "static/media/amazonas-3.png": "/thalitaimobiliaria/static/media/amazonas-3.c9c0da9fc9aec4aa2e10.png",
+    "static/media/lacus.png": "/thalitaimobiliaria/static/media/lacus.d8aaa91403e378ec3a57.png",
+    "static/media/TELLUS.png": "/thalitaimobiliaria/static/media/TELLUS.e4d4839f25a3ceafe011.png",
     "static/media/logouchoa-azul.png": "/thalitaimobiliaria/static/media/logouchoa-azul.ebec0de63e01d415466c.png",
     "static/media/thalitapage.jpg": "/thalitaimobiliaria/static/media/thalitapage.9f561ba5df72cee73558.jpg",
     "static/media/logouchoa.png": "/thalitaimobiliaria/static/media/logouchoa.cd1b1ac881f2efa42bb7.png",
     "static/media/thalita-sem-fundo.jpg": "/thalitaimobiliaria/static/media/thalita-sem-fundo.9b5041edc2e3fcf85d13.jpg",
-    "static/media/residencial-amazonas.jpg": "/thalitaimobiliaria/static/media/residencial-amazonas.4f7e28992735c349b98b.jpg",
-    "static/media/terramazonia-imagens-empreendimentos-492x328.jpg": "/thalitaimobiliaria/static/media/terramazonia-imagens-empreendimentos-492x328.b417e761079f91adb75c.jpg",
-    "static/media/residencial-amazonas-2-imagens-empreendimentos-492x328.jpg": "/thalitaimobiliaria/static/media/residencial-amazonas-2-imagens-empreendimentos-492x328.f7b2f28716f1d5ff096a.jpg",
-    "static/media/Banner-TELLUS.webp": "/thalitaimobiliaria/static/media/Banner-TELLUS.373c7644dae8dcfeccbc.webp",
+    "static/media/amazonas.jpg": "/thalitaimobiliaria/static/media/amazonas.4f7e28992735c349b98b.jpg",
+    "static/media/portal-da-collina.jpg": "/thalitaimobiliaria/static/media/portal-da-collina.441914eb85e964657aa4.jpg",
+    "static/media/terramazonia.jpg": "/thalitaimobiliaria/static/media/terramazonia.b417e761079f91adb75c.jpg",
+    "static/media/mansoes-de-acutuba.jpg": "/thalitaimobiliaria/static/media/mansoes-de-acutuba.1e9e00cbc6a50dbc9439.jpg",
+    "static/media/amazonas-2.jpg": "/thalitaimobiliaria/static/media/amazonas-2.f7b2f28716f1d5ff096a.jpg",
+    "static/media/primaville.jpg": "/thalitaimobiliaria/static/media/primaville.2cde74a703866cea4b6f.jpg",
     "static/media/slick.svg": "/thalitaimobiliaria/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/thalitaimobiliaria/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/thalitaimobiliaria/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/thalitaimobiliaria/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/thalitaimobiliaria/index.html",
-    "main.43f8b210.css.map": "/thalitaimobiliaria/static/css/main.43f8b210.css.map",
-    "main.365af6ab.js.map": "/thalitaimobiliaria/static/js/main.365af6ab.js.map",
+    "main.4da21736.css.map": "/thalitaimobiliaria/static/css/main.4da21736.css.map",
+    "main.93ac9b3f.js.map": "/thalitaimobiliaria/static/js/main.93ac9b3f.js.map",
     "453.501d1b03.chunk.js.map": "/thalitaimobiliaria/static/js/453.501d1b03.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.43f8b210.css",
-    "static/js/main.365af6ab.js"
+    "static/css/main.4da21736.css",
+    "static/js/main.93ac9b3f.js"
   ]
 }
