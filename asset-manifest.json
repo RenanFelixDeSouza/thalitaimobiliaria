@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/thalitaimobiliaria/static/css/main.4da21736.css",
-    "main.js": "/thalitaimobiliaria/static/js/main.797a3ee5.js",
+    "main.js": "/thalitaimobiliaria/static/js/main.44562da9.js",
     "static/js/453.501d1b03.chunk.js": "/thalitaimobiliaria/static/js/453.501d1b03.chunk.js",
     "static/media/thalitapage-large.png": "/thalitaimobiliaria/static/media/thalitapage-large.b0d80629dea9780316b5.png",
     "static/media/amazonas-3.png": "/thalitaimobiliaria/static/media/amazonas-3.c9c0da9fc9aec4aa2e10.png",
@@ -23,11 +23,11 @@
     "static/media/slick.woff": "/thalitaimobiliaria/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/thalitaimobiliaria/index.html",
     "main.4da21736.css.map": "/thalitaimobiliaria/static/css/main.4da21736.css.map",
-    "main.797a3ee5.js.map": "/thalitaimobiliaria/static/js/main.797a3ee5.js.map",
+    "main.44562da9.js.map": "/thalitaimobiliaria/static/js/main.44562da9.js.map",
     "453.501d1b03.chunk.js.map": "/thalitaimobiliaria/static/js/453.501d1b03.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4da21736.css",
-    "static/js/main.797a3ee5.js"
+    "static/js/main.44562da9.js"
   ]
 }
