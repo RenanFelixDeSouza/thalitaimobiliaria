@@ -1,8 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { slide as Menu } from 'react-burger-menu'; // Importa o componente da biblioteca
+import { Link } from 'react-router-dom'; // Importa o componente Link
 import './Navbar.css';
-import LogoUchoaAzul from '../../Img/logouchoa-azul.png';
-import LogoUchoa from '../../Img/logouchoa.png';
+import LogoUchoaAzul from '../../Img/Logo/logouchoa-azul.png';
+import LogoUchoa from '../../Img/Logo/logouchoa.png';
 
 function Navbar() {
   const navbarRef = useRef(null);
@@ -42,11 +43,13 @@ function Navbar() {
   return (
     <header ref={navbarRef} className={`navbar ${isScrolled ? 'solid' : 'transparent'}`}>
       <div className="logo-container">
-        <img
-          src={isScrolled ? LogoUchoa : LogoUchoaAzul}
-          alt="Logo Uchoa"
-          className={`logo ${isScrolled ? 'small-logo' : 'large-logo'}`}
-        />
+        <Link to="/">
+          <img
+            src={isScrolled ? LogoUchoa : LogoUchoaAzul}
+            alt="Logo Uchoa"
+            className={`logo ${isScrolled ? 'small-logo' : 'large-logo'}`}
+          />
+        </Link>
       </div>
       {isMobile ? (
         <Menu

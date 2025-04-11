@@ -1,0 +1,173 @@
+
+
+.map-section iframe {
+  margin-bottom: 20px;
+}
+
+.title-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.title-section .tellus-logo {
+  max-width: 200px;
+  margin-top: 10px;
+}
+
+
+.differentials {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.differentials h2 {
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.differentials-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.differential-item {
+  text-align: center;
+  max-width: 150px;
+  transition: transform 0.3s ease;
+}
+
+.differential-item img {
+  max-width: 60px;
+  margin-bottom: 10px;
+}
+
+.differential-item:hover {
+  transform: scale(1.1);
+}
+
+.differential-item p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Estilo para a seção da ficha técnica */
+.technical-sheet {
+  padding: 50px 20px;
+  color: var(--primary-color);
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.technical-sheet h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+/* Layout horizontal para as seções */
+.technical-details {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Bloco da descrição geral */
+.description-column {
+  flex: 1;
+  background-color: #fff;
+  border: 1px solid var(--secondary-color);
+  border-radius: 8px;
+  padding: 20px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.description-column h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--secondary-color);
+  padding-bottom: 10px;
+}
+
+.description-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.description-column ul li {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  position: relative;
+  color: var(--primary-color);
+}
+
+.description-column ul li::before {
+  content: "✔";
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Bloco da infraestrutura */
+.indicators-column {
+  flex: 1;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 8px;
+  padding: 20px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.indicators-column h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: var(--third-color);
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--third-color);
+  padding-bottom: 10px;
+}
+
+.indicator {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.indicator span {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 10px;
+  background-color: #fff;
+  margin: 0 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background-color: var(--secondary-color);
+}
+
+.percentage {
+  font-size: 1rem;
+  color: #fff;
+}

@@ -3,11 +3,16 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 
+
 :root {
   --primary-color: #1a2a4a;
   --secondary-color: #c89855;
   --third-color: #efcdb1;
+  --font-family: 'Modeska', 'Montserrat', sans-serif;
 }
 
+body {
+  font-family: var(--font-family);
+}
 
 
